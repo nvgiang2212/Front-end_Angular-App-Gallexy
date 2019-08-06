@@ -3,6 +3,11 @@
   "rules": {
     "array-type": false,
     "arrow-parens": false,
+    "variable-name": [
+      true,
+      "allow-trailing-underscore",
+      "check-format"
+    ],
     "deprecation": {
       "severity": "warning"
     },
